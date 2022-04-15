@@ -216,30 +216,49 @@
     // }
     // console.log(kangaroo(4,2,0,1))
 
-    function getTotalX(a, b) {
-        let c =[];
-        for (let j = 0; j < a.length ; j++) {
-            for (let i = a[a.length -1]; i <= b[0] ; i++) {
-                if ( i % a[j] !==0 ) {
-                    break;
-                } else {
-                    c.push(i);
-                    break;
-                }
-            }
-            // }
-            // for (let i = 0; i < c.length; i++) {
-            //     for (let j = 0; j < b.length; j++) {
-            //         if ( b[j] % c[i] !== 0) {
-            //             c.splice(i, 1);
-            //         }
-            //     }
-        } return c;
-    }
+    // function getTotalX(a, b) {
+    //     let c = [];
+    //     for (let j = 0; j < a.length; j++) {
+    //         for (let i = a[a.length - 1]; i <= b[0]; i++) {
+    //             if (i % a[j] !== 0) {
+    //                 break;
+    //             } else {
+    //                 c.push(i);
+    //                 break;
+    //             }
+    //         }
+    //     }
+    //     for (let i = 0; i < c.length; i++) {
+    //         for (let j = 0; j < b.length; j++) {
+    //             if (b[j] % c[i] !== 0) {
+    //                 c.splice(i, 1);
+    //             }
+    //         }
+    //     }
+    //     return c;
+    // }
+    //
+    // let a = [3, 4]
+    // let b = [24, 48]
+    // console.log(getTotalX(a, b))
 
-    let a = [3, 4]
-    let b = [24, 48]
-    console.log(getTotalX(a, b))
+    // function breakingRecords(scores) {
+    //     let max = scores[0];
+    //     let min = scores[0]
+    //     let count =[0,0]
+    //     for (let i = 0; i < scores.length; i++) {
+    //         if ( scores[i] > max ) {
+    //             max = scores[i];
+    //             count[0]++
+    //         }
+    //         if ( scores[i] < min) {
+    //             min = scores[i]
+    //             count[1]++
+    //         }
+    //     } return count;
+    // }
+    // let a = [2,2,5,6,7,1]
+    // console.log(breakingRecords(a))
 
 </script>
 </body>
